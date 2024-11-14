@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rag-ai-project"
+version = "0.1.0"
+description = ""
+authors = ["khanhvg <khanhvg99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain = "^0.3.7"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.6.1"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.60"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
