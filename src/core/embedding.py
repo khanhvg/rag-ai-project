@@ -20,7 +20,6 @@ class EmbeddingClient(BedrockClient):
       response_body = json.loads(response.get("body").read().decode("utf-8"))
 
       # Extract the embeddings from the response
-
       embeddings = response_body.get("embeddings")
       return embeddings
     except Exception as e:
